@@ -47,7 +47,7 @@ function CourseTree({ courses, streamName, streamColor }) {
                 }}
               >
                 <p 
-                  className="text-white font-semibold text-xs md:text-sm leading-tight"
+                  className="text-white font-serif font-semibold text-sm md:text-base leading-tight"
                 >
                   {course.name}
                 </p>
@@ -72,7 +72,7 @@ function CourseTree({ courses, streamName, streamColor }) {
           className="mx-auto w-full max-w-xs md:max-w-sm rounded-2xl py-4 px-6 text-center shadow-lg"
           style={{ backgroundColor: streamColor }}
         >
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white">{streamName}</h2>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-serif font-bold text-white">{streamName}</h2>
         </div>
       </motion.div>
 
@@ -99,7 +99,7 @@ function CourseTree({ courses, streamName, streamColor }) {
               }}
             >
               <p 
-                className="text-white font-semibold text-xs md:text-sm leading-tight"
+                className="text-white font-serif font-semibold text-sm md:text-base leading-tight"
               >
                 {course.name}
               </p>
