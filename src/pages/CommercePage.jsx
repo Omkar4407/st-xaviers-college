@@ -35,25 +35,7 @@ function CommercePage() {
           </p>
           
           {/* History Section */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-white rounded-lg shadow-md p-6 md:p-8 mb-8 max-w-4xl"
-          >
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mb-4">History of the Commerce Stream</h2>
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
-                The Commerce stream at St. Xavier's College, Mumbai, is the most recent addition to the college's academic offerings. The Bachelor of Commerce program was introduced in the <strong className="text-gray-900">academic year 2022-2023</strong>, marking the college's expansion into business and commerce education.
-              </p>
-              <p>
-                This addition reflects St. Xavier's College's continued commitment to adapting and broadening its educational scope to meet the evolving needs of students and the demands of the modern economy. The Commerce stream represents the college's forward-looking approach to education while maintaining its tradition of academic excellence.
-              </p>
-              <p className="font-semibold text-gray-900">
-                Today, the Commerce stream offers 2 strategic programs, providing students with contemporary business education rooted in the college's long-standing values of excellence and integrity.
-              </p>
-            </div>
-          </motion.div>
+          
         </motion.div>
 
         {/* Course Tree */}

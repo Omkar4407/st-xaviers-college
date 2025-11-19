@@ -46,28 +46,7 @@ function ArtsPage() {
           </p>
           
           {/* History Section */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-white rounded-lg shadow-md p-6 md:p-8 mb-8 max-w-4xl"
-          >
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mb-4">History of the Arts Stream</h2>
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
-                The Arts stream is the foundation of St. Xavier's College, Mumbai, having been established at the college's inception. The college was founded on <strong className="text-gray-900">January 2, 1869</strong> by <strong className="text-gray-900">German Jesuits</strong>, initially offering courses in the arts.
-              </p>
-              <p>
-                The first principal of the college was <strong className="text-gray-900">Fr. Depelchin</strong>, who led the institution in its formative years. The college was named after <strong className="text-gray-900">St. Francis Xavier</strong>, a 16th-century Spanish Jesuit saint who began the educational work of the Society of Jesus in India.
-              </p>
-              <p>
-                The Arts stream has been the cornerstone of the college's educational mission for over 150 years, establishing the institution's reputation for academic excellence in the humanities and social sciences.
-              </p>
-              <p className="font-semibold text-gray-900">
-                Today, the Arts stream continues to flourish with 13 diverse programs, maintaining the rich tradition of liberal arts education that has defined St. Xavier's College since its founding.
-              </p>
-            </div>
-          </motion.div>
+          
         </motion.div>
 
         {/* Course Tree */}

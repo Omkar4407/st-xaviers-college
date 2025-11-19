@@ -44,25 +44,7 @@ function SciencePage() {
           </p>
           
           {/* History Section */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-white rounded-lg shadow-md p-6 md:p-8 mb-8 max-w-4xl"
-          >
-            <h2 className="text-2xl font-serif font-bold text-gray-900 mb-4">History of the Science Stream</h2>
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
-                The Science stream at St. Xavier's College, Mumbai, was introduced in the <strong className="text-gray-900">1920s</strong>, marking a significant expansion of the college's academic offerings beyond liberal arts. The initial science departments established were <strong className="text-gray-900">Chemistry and Biology</strong>, which laid the foundation for the comprehensive science programs that exist today.
-              </p>
-              <p>
-                This expansion was part of the college's growth under the leadership of Principal <strong className="text-gray-900">Frederick Dreckmann</strong>, who served from 1884 to 1910 and oversaw rapid development during his tenure. The introduction of science programs reflected the college's commitment to providing a well-rounded education and adapting to the evolving educational needs of students.
-              </p>
-              <p className="font-semibold text-gray-900">
-                Today, the Science stream continues to thrive with 11 specialized programs, building on the foundation established nearly a century ago.
-              </p>
-            </div>
-          </motion.div>
+          
         </motion.div>
 
         {/* Course Tree */}
