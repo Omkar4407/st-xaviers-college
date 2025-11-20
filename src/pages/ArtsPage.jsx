@@ -4,16 +4,13 @@ import CourseTree from '../components/CourseTree'
 
 const artsCourses = [
   { name: 'Ancient Indian History, Culture & Archeology', url: 'https://sites.google.com/xaviers.edu/aihca' },
-  { name: 'Economics', url: 'https://sites.google.com/xaviers.edu/economics' },
   { name: 'Psychology', url: 'https://sites.google.com/xaviers.edu/psychology' },
-  { name: 'Commerce', url: 'https://sites.google.com/xaviers.edu/commerce-arts' },
   { name: 'English', url: 'https://sites.google.com/xaviers.edu/english' },
   { name: 'French', url: 'https://sites.google.com/xaviers.edu/french' },
   { name: 'Hindi', url: 'https://sites.google.com/xaviers.edu/hindi' },
   { name: 'History', url: 'https://sites.google.com/xaviers.edu/history' },
   { name: 'Political Science', url: 'https://sites.google.com/xaviers.edu/political-science' },
   { name: 'Public Policy', url: 'https://sites.google.com/xaviers.edu/public-policy' },
-  { name: 'Statistics', url: 'https://sites.google.com/xaviers.edu/statistics' },
   { name: 'Mass Media', url: 'https://sites.google.com/xaviers.edu/mass-media' },
   { name: 'Sociology & Anthropology', url: 'https://sites.google.com/xaviers.edu/sociology-anthropology' },
 ]

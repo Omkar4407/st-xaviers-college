@@ -4,6 +4,8 @@ import CourseTree from '../components/CourseTree'
 
 const commerceCourses = [
   { name: 'Commerce Evening', url: 'https://sites.google.com/xaviers.edu/commerce-evening' },
+  { name: 'Economics', url: 'https://sites.google.com/xaviers.edu/economics' },
+  { name: 'Commerce', url: 'https://sites.google.com/xaviers.edu/commerce-arts' },
   { name: 'Management Studies', url: 'https://sites.google.com/xaviers.edu/management-studies' },
 ]
 
